@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node)",
+      "Bash(where npm)",
+      "Bash(npm install)",
+      "Bash(npm run dev)",
+      "Bash(npm install @rollup/rollup-win32-x64-msvc --save-optional)",
+      "Bash(npm install --force @rollup/rollup-win32-x64-msvc)",
+      "Bash(node -e \"const r = require\\(''/c/Users/sange/Desktop/ASES/ases/node_modules/rollup/package.json''\\); console.log\\(r.version, JSON.stringify\\(r.optionalDependencies\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\(''optionalDependencies'',{}\\), indent=2\\)\\)\")",
+      "Bash(node -e \"const d = require\\(''/c/Users/sange/Desktop/ASES/ases/node_modules/rollup/package.json''\\); console.log\\(JSON.stringify\\(d.optionalDependencies, null, 2\\)\\)\")",
+      "Bash(node -e \"const d = require\\(''./node_modules/rollup/package.json''\\); console.log\\(JSON.stringify\\(d.optionalDependencies, null, 2\\)\\)\")",
+      "Bash(npm install @rollup/rollup-win32-x64-msvc@4.59.0)",
+      "Bash(node -e \"const d = require\\(''./package-lock.json''\\); const r = d.packages[''node_modules/@rollup/rollup-win32-x64-msvc'']; console.log\\(JSON.stringify\\(r, null, 2\\)\\)\")",
+      "Bash(npm install --include=optional)",
+      "Bash(node -e \":*)",
+      "Bash(npm pack @rollup/rollup-win32-x64-msvc@4.59.0 --pack-destination /tmp/rollup-pack)",
+      "Bash(tar xzf \"C:/Users/sange/AppData/Local/Temp/rollup-pack/rollup-rollup-win32-x64-msvc-4.59.0.tgz\" --strip-components=1)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\(''fs''\\).readFileSync\\(''/dev/stdin'',''utf8''\\)\\); console.log\\(JSON.stringify\\(d.optionalDependencies||{}, null, 2\\)\\)\")",
+      "Bash(node -e \"const d=require\\(''./node_modules/lightningcss/package.json''\\); console.log\\(JSON.stringify\\(d.optionalDependencies||{}, null, 2\\)\\)\")",
+      "Bash(npm pack lightningcss-win32-x64-msvc@1.31.1 --pack-destination \"/c/Users/sange/AppData/Local/Temp/rollup-pack\")",
+      "Bash(tar xzf \"/c/Users/sange/AppData/Local/Temp/rollup-pack/lightningcss-win32-x64-msvc-1.31.1.tgz\" --strip-components=1 -C \"/c/Users/sange/Desktop/ASES/ases/node_modules/lightningcss-win32-x64-msvc\")",
+      "Bash(node -e \"const d=require\\(''./node_modules/@tailwindcss/oxide/package.json''\\); console.log\\(JSON.stringify\\(d.optionalDependencies||{}, null, 2\\)\\)\")",
+      "Bash(node fix-native.js)",
+      "Bash(tar xzf \"/c/Users/sange/AppData/Local/Temp/native-pkgs/tailwindcss-oxide-win32-x64-msvc-4.2.1.tgz\" --strip-components=1 -C \"/c/Users/sange/Desktop/ASES/ases/node_modules/@tailwindcss/oxide-win32-x64-msvc\")",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
